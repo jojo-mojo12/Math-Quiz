@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Guess The Word</title>
+	<title>Math Quiz</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Edu+NSW+ACT+Foundation:wght@700&family=Foldit:wght@100..900&family=Josefin+Sans:ital,wght@0,141;1,141&family=Nunito:ital,wght@0,1000;1,1000&family=Outfit:wght@900&family=Rubik:ital,wght@0,497;1,497&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="game.css">
+<style>
+	body{background-image: url("bg2.jpg");background-size:cover; }</style>
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
 </head>
 <body>
 
@@ -18,15 +21,23 @@
 
 <div class="container">
 	<center>
-		<h2 style="color: white;"><u><b>Math Quiz</b></u></h2>
+	<br><br><br><br><br><br><br><br><br><br><br>
+		<h2 id = "gpheading" style="color: white;"><u><b>MATH QUIZ</b></u></h2>
         <h3 id = "player_question"></h3>
 		<h3 id = player_answer></h3>
-		<div id = "output" class = "col-lg-6"></div>
+		<div id = "output" class = "col-lg-6">
+			<h4 id = "question"></h4>
+			<label>Answer: </label>
+			<input type = "text" id = "ansbox" placeholder = "Enter your answer here..." ><br><br>
+			<button onclick = "check()" class = "btn btn-primary ">Submit</button> 
+		</div>
 
 		<br>
 		<br>
 
-		<input type = "text" id = "word" class = "form-control" placeholder = "Enter">
+		<input type = "text" id = "word" class = "form-control" placeholder = "Enter your first number here!">
+		<br>
+		<input type = "text" id = "word" class = "form-control" placeholder = "Enter your second number here!">
 		<br>
         <button onclick="send()" class = "btn btn-success" style="width:30%;"> Send </button>
 	</center>
