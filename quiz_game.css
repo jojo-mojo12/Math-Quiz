@@ -1,0 +1,83 @@
+.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 30px;
+		float: none;
+		border-radius: 15px;
+		width: 600px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+	color:white;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+border-top-width: 30px;
+padding: 10px;
+float: none;
+text-align: left;
+font-family: "Rubik", sans-serif;
+font-weight: 300;
+}
+
+#heading
+{
+	font-family: "Rubik", sans-serif;
+	font-weight: 1000;
+	font: size 20px;
+	color:ghostwhite;
+}
+
+#loginhead
+{
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 900;
+}
+
+#logbtn
+{
+	font-family: "Nunito", sans-serif;
+}
+
+#loginpg
+{
+	width: 700px;
+	background-color: rgba(123, 123, 123, 0.504);
+	border-radius: 20px;
+}
+
+#gpheading
+{
+	font-family: "Edu NSW ACT Foundation", cursive;
+	font-weight: 700;
+	font-size: 40px;
+	color:ghostwhite;
+}
+
+.q_input
+{
+	width: 300px;
+}
+
+#subbtn, #sendbtn
+{
+	font-family: "Comfortaa", sans-serif;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,141;1,141&family=Nunito:ital,wght@0,1000;1,1000&family=Outfit:wght@900&family=Rubik:ital,wght@0,497;1,497&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="quiz_game.css">
+<script src="quiz_game_login.js"></script>
+
+<style>
+body{background-image: url("bg.png");background-size:cover; }</style>
+</head>
+<body>
+	<center>
+		<br><br><br><br><br><br><br><br>
+		<div id = "loginpg"><br>
+		<h1 id = "heading">➕❌M@th Qu!Z➖➗ </h1><br>
+		<h4 style="color:white;"> Welcome! Please enter your usernames to start.</h4>
+		<div class = "col-lg-4 col-sm-8 col-xs-12 login_div1">
+			<h2 id = "loginhead"> Player 1 Login</h2>
+			<br>
+			<input id = "player1name" type = "text" class = "form-control" placeholder = "Enter username"><i class='bx bxs-user' ></i>
+			<br>
+		</div>
+		<br>
+
+		<div class = "col-lg-4 col-sm-8 col-xs-12 login_div2">
+			<h2 id = "loginhead"> Player 2 Login </h2>
+			<input id = "player2name" type = "text" class = "form-control" placeholder = "Enter username"><i class='bx bxs-user' ></i>
+			<br>
+		</div>
+		<br>
+
+		<button onclick = "addUser()" class = "btn btn-primary" style = "width: 30%" id = "logbtn"><i class='bx bx-log-in-circle'></i>LOGIN</button>
+	    <br><br></div>
+	</center>
+</body>
+</html>
