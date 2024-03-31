@@ -15,6 +15,7 @@
 {
 	display: inline-block;
 	margin-left: 20px;
+	color:white;
 }
 #word
 {
@@ -29,9 +30,12 @@
 background: white;
 border-radius: 10px;
 border-top: 10px solid #AA4465;
+border-top-width: 30px;
 padding: 10px;
 float: none;
 text-align: left;
+font-family: "Rubik", sans-serif;
+font-weight: 300;
 }
 
 #heading
@@ -62,9 +66,18 @@ text-align: left;
 
 #gpheading
 {
-	font-family: "Edu NSW ACT Foundation", cursive;;
+	font-family: "Edu NSW ACT Foundation", cursive;
 	font-weight: 700;
 	font-size: 40px;
 	color:ghostwhite;
 }
 
+.q_input
+{
+	width: 300px;
+}
+
+#subbtn, #sendbtn
+{
+	font-family: "Comfortaa", sans-serif;
+}
