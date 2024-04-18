@@ -6,8 +6,8 @@
 		border-radius: 15px;
 		width: 600px;
 		display:flex;
-		justify-content:center;
-		align-items:center;
+		justify-content: center;
+		align-items: center;
 	}
 
 
@@ -29,7 +29,7 @@
 {
 background: white;
 border-radius: 10px;
-border-top: 10px solid #AA4465;
+border-top: 10px solid #005eff;
 border-top-width: 30px;
 padding: 10px;
 float: none;
@@ -77,7 +77,29 @@ font-weight: 300;
 	width: 300px;
 }
 
-#subbtn, #sendbtn
+#subbtn
 {
 	font-family: "Comfortaa", sans-serif;
 }
+
+#sendbtn
+{
+	font-family: "Comfortaa", sans-serif;
+	
+}
+
+body
+{
+   background-image: url(bg2.png);
+   background-size: cover;
+}
+
+.turn_disp
+{
+	color: rgb(255, 213, 0);
+	font-family: "Comfortaa", sans-serif;
+	font-weight: 900;
+}
+
+::placeholder {
+	text-align: center; 
